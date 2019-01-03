@@ -1,6 +1,6 @@
 /**
  * Owl Carousel v2.2.1
- * Copyright 2013-2017 David Deutsch
+
  * Licensed under  ()
  */
 /*
@@ -10,14 +10,14 @@
   display: none;
   width: 100%;
   -webkit-tap-highlight-color: transparent;
-  /* position relative and z-index fix webkit rendering fonts issue */
+  
   position: relative;
   z-index: 1; }
   .owl-carousel .owl-stage {
     position: relative;
     -ms-touch-action: pan-Y;
     -moz-backface-visibility: hidden;
-    /* fix firefox animation glitch */ }
+     }
   .owl-carousel .owl-stage:after {
     content: ".";
     display: block;
